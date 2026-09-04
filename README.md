@@ -1,11 +1,14 @@
 # Observability & SRE Lab
 
-Hands-on observability and Site Reliability Engineering experiments.
+Hands-on observability and Site Reliability Engineering experiments focused on
+understanding, monitoring, and improving the reliability of production systems.
 
 ## Purpose
 
-This repository focuses on understanding how production systems can be observed,
-measured, alerted on, and diagnosed during failures.
+This repository documents practical experiments with observability and SRE concepts.
+
+The focus is on understanding system behavior through metrics, logs, traces, alerts,
+and incident analysis, then using that information to diagnose issues and improve reliability.
 
 ## Focus Areas
 
@@ -15,7 +18,7 @@ measured, alerted on, and diagnosed during failures.
 - OpenTelemetry
 - metrics
 - logs
-- traces
+- distributed traces
 - RED and USE methods
 - SLI / SLO
 - alerting
@@ -30,6 +33,7 @@ prometheus/
 grafana/
 loki/
 opentelemetry/
+dashboards/
 alerts/
 slo/
 incidents/
